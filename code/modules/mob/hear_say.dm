@@ -2,7 +2,7 @@
 /mob/proc/hear_apollo()
 	return FALSE
 
-/mob/hologram/hear_say(message, verb = "says", datum/language/language = null, alt_name = "", italics = 0, mob/speaker = null, sound/speech_sound, sound_vol)
+/mob/hologram/hear_say(message, verb = "says", datum/language/language = null, alt_name = "", italics = 0, mob/speaker = null, sound/speech_sound, sound_vol, tts_heard_list)
 	if(!hears_speech || !linked_mob)
 		return
 	if(speaker == linked_mob)
