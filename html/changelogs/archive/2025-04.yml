@@ -572,3 +572,6 @@
   - bugfix: Resting doesn't reset Tackle Counter anymore. No more Rest Tech.
   realforest2001:
   - rscdel: Deletes a bugged human equipment preset.
+2025-04-25:
+  RUCM:
+  - rscadd: Upstream 24.04
