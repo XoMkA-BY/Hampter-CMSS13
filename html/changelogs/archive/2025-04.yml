@@ -575,3 +575,7 @@
 2025-04-25:
   RUCM:
   - rscadd: Upstream 24.04
+2025-04-29:
+  Noname995:
+  - bugfix: Fixed xeno allience menu
+  - bugfix: Fixed hostile survs spawn on LV-624
