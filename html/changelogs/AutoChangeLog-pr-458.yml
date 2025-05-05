@@ -1,0 +1,4 @@
+author: "Arom-beep"
+delete-after: True
+changes:
+  - maptweak: "Moved X coordinate Vendors a little bit in CIC"
