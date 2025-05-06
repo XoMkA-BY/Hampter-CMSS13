@@ -125,6 +125,30 @@
 
 	qdel(src)
 
+//RUCM START
+/obj/effect/landmark/interior/spawn/vehicle_driver_seat/arc
+	name = "ARC driver seat spawner"
+	icon = 'icons/obj/vehicles/interiors/general.dmi'
+	icon_state = "armor_chair"
+	color = "red"
+
+/obj/effect/landmark/interior/spawn/vehicle_driver_seat/arc/on_load(datum/interior/I)
+	var/obj/structure/bed/chair/comfy/vehicle/arc/S = new(loc)
+
+	S.icon = icon
+	S.icon_state = icon_state
+	S.vehicle = I.exterior
+	S.required_skill = S.vehicle.required_skill
+	S.setDir(dir)
+	S.update_icon()
+	S.alpha = alpha
+	S.handle_rotation()
+	S.pixel_x = pixel_x
+	S.pixel_y = pixel_y
+
+	qdel(src)
+//RUCM END
+
 /obj/effect/landmark/interior/spawn/vehicle_driver_seat/armor/wy
 	icon = 'icons/obj/vehicles/interiors/general_wy.dmi'
 	icon_state = "armor_chair"
