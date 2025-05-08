@@ -37,7 +37,12 @@
 	comp.spent = FALSE
 	QDEL_NULL_LIST(comp.vehicles)
 	comp.vehicles = list(
-		new /datum/vehicle_order/arc()
+		/* RUCM CHANGE
+		//new /datum/vehicle_order/arc()
+		*/
+		//RUCM START
+		new /datum/vehicle_order/arc/ru()
+		//RUCM END
 	)
 	/* RUCM CHANGE
 	comp.allowed_roles = list(JOB_SYNTH, JOB_SEA, JOB_SO, JOB_XO, JOB_CO, JOB_GENERAL)
