@@ -16,14 +16,14 @@
   - mapadd: Added all types of xeno plushies
   - mapadd: Added InvisWalls on all hull windows
   - mapadd: New sprinkle SCI Restroom
-  RUCM:
-  - rscadd: Upstream 01.05
   Blundir:
   - bugfix: fixed suit storage gun icons being missing in some cases
   Joe Lampost:
   - bugfix: Fixes multiple elder overseer messages being sent for a weather event.
   Kashargul:
   - bugfix: a potential lockup with tgui
+  RUCM:
+  - rscadd: Upstream 01.05
 2025-05-03:
   BertStein:
   - qol: Pill bottles and autoinjectors now support 3-character sprite labels.
@@ -125,3 +125,9 @@
 2025-05-10:
   1Halo1Man1:
   - rscadd: "\u0412\u0435\u0449\u0438 \u0432\u0435\u043D\u0434\u043E\u0440\u0430."
+2025-05-11:
+  Detective-Google:
+  - rscadd: WY beacon guards now return to the WY ert station rather than the default
+      one.
+  RUCM:
+  - rscadd: Upstream 11.05.2025
