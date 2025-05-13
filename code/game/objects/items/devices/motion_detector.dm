@@ -187,14 +187,12 @@
 	if(ishuman(loc))
 		return loc
 
-/*RUCM CHANGE
 /obj/item/device/motiondetector/sg
 
 /obj/item/device/motiondetector/sg/get_user()
 	var/atom/A = loc
 	if(ishuman(A.loc))
 		return A.loc
-*/
 
 /obj/item/device/motiondetector/xm4
 

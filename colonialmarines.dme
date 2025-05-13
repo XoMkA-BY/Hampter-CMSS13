@@ -2633,7 +2633,6 @@
 #include "core_ru\code\game\objects\items\tools\synth_bracer\abilities\primary\anchor_form.dm"
 #include "core_ru\code\game\objects\items\tools\synth_bracer\abilities\primary\protect_form.dm"
 #include "core_ru\code\game\objects\items\tools\synth_bracer\abilities\primary\repair_form.dm"
-#include "core_ru\code\game\objects\items\tools\synth_bracer\abilities\utility\motion_detector.dm"
 #include "core_ru\code\game\objects\items\tools\synth_bracer\abilities\utility\rescue_hook.dm"
 #include "core_ru\code\game\objects\items\tools\synth_bracer\abilities\utility\tactical_map.dm"
 #include "interface\fonts.dm"
