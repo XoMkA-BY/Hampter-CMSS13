@@ -178,3 +178,7 @@
   Noname995:
   - qol: Stormtrooper spec gear renamed to Breacher spec gear
   - code_imp: Stormtrooper code paths renamed to Breacher spec paths
+  RUCM:
+  - rscadd: Upstream 18.05.2025
+  SPACE5891, A rich guy four:
+  - bugfix: can put FixOVein in first-aid kit
