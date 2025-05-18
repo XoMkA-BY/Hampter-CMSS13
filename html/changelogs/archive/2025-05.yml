@@ -134,3 +134,7 @@
 2025-05-12:
   RUCM:
   - rscadd: Upstream 11.05.2025
+2025-05-18:
+  Noname995:
+  - qol: Stormtrooper spec gear renamed to Breacher spec gear
+  - code_imp: Stormtrooper code paths renamed to Breacher spec paths
