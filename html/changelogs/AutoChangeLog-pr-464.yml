@@ -1,0 +1,5 @@
+author: "Noname995"
+delete-after: True
+changes:
+  - qol: "Stormtrooper spec gear renamed to Breacher spec gear"
+  - code_imp: "Stormtrooper code paths renamed to Breacher spec paths"
